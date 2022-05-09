@@ -1,0 +1,176 @@
+
+
+#main_car_body_div{
+    /* border: 1px solid blue; */
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(225, 223, 220);
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    box-shadow: rgba(228, 224, 224, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+
+#navbar{
+    width: 100%;
+    margin: 10px auto;
+    /* border: 1px solid black; */
+    height: 2500px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    display: flex;
+    box-shadow: rgba(228, 224, 224, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+#main_part1{
+   flex: 2;
+  /* border: 1px solid green; */
+  /* margin-left: -5px; */
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+  box-shadow: rgba(228, 224, 224, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  background-color: white;
+  
+}
+#main_part2{
+    flex: 8;
+    /* border: 1 px solid yellow; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 
+    0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    box-shadow: rgba(228, 224, 224, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+} 
+#categories{
+    display: flex;
+    /* width: 70%; */
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid teal; */
+    justify-content: space-evenly;
+    margin: auto;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    box-shadow: rgba(228, 224, 224, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: white;
+    
+}
+#carCardFontLogo{
+    display: flex;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    /* box-shadow: rgba(228, 224, 224, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+}
+.card_flex{
+    display: flex;
+    justify-content: space-evenly;
+  
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    /* border: 1px solid red; */
+    box-shadow: rgba(228, 224, 224, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+#middle{
+   display: flex;
+   color: greenyellow;
+   height: 50px;
+   width: 100%;
+   border: 1px solid green;
+   background-color: white;
+  margin-right: 50px;
+ 
+}
+#part_1{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+}
+
+#part_1 div:nth-child(2){
+    display: flex;
+}
+#part_1 div:nth-child(2) p{
+    display: flex;
+    margin-right: 20px;
+}
+
+ #carCard{
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    box-shadow: rgba(228, 224, 224, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: white;
+
+} 
+#right_2{
+    /* display: flex; */
+    /* margin-top: -10px; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    box-shadow: rgba(228, 224, 224, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: white;
+  
+}
+#right_1{
+    /* display: flex; */
+    /* margin-top: -10px; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+  
+}
+/* #a{
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+/* } */ */
+#btn{
+   margin-left: 200px;
+   color: white;
+   background-color: rgb(1, 1, 33);
+   font-size: 25px;
+   border-radius: 5px;
+}
+#lower{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#part_2{
+    /* border: 1px solid ; */
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 100px; */
+    background-color: white;
+    width: 100%;
+    margin-bottom: 20px;
+    /* margin: auto; */
+    box-shadow: rgba(228, 224, 224, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#part_2 div{
+    /* border: 1px solid red; */
+   
+    width: 22%;
+}
+#part_2 div img{
+    width: 100%;
+}
+#part2_carCardFontLogo{
+    display: flex;
+}
+#firstpart{
+    display: flex;
+    
+}
+#boxes{
+    margin-top: 100px;
+    color: rgb(13, 156, 13);
+}
+#boxes1{
+    margin-top: 100px;
+}
+#final{
+    display: flex;
+}
+#final_1{
+    display: flex;
+}
+#final_2{
+    display: flex;
+    justify-content: space-around;
+}
+

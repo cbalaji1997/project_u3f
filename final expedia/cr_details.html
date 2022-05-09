@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #part_2{
+    /* border: 1px solid ; */
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 100px; */
+    background-color: white;
+    width: 100%;
+    margin-bottom: 20px;
+    /* margin: auto; */
+    box-shadow: rgba(228, 224, 224, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#confirm_car{
+ 
+     margin-left:650px;
+     padding: 20px 50px;
+     background-color: rgb(76, 76, 164);
+     color: white;
+     border-radius: 10px;
+     border: none;
+}
+#confirm_car:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+    </style>
+</head>
+<body>
+    
+
+    <div id="part_2" onclick="car_details()">
+        <div>
+            <h1>Compact</h1>
+            <p>Hyundai Accentor similar</p>
+         
+                <img src="https://ctimg-fleet.cartrawler.com/hyundai/sonata/primary.png?w=281.25&auto=compress" >
+                <div  id="carCardFontLogo">
+                    <p><i class="fa-solid fa-user"></i> 5 &nbsp;</p><br>
+                    <p><i class="fa-solid fa-bag-shopping"></i>  3</p>
+                </div>
+                <p>Automatic Transmission</p>
+                <p>Air Conditioning</p>
+
+                
+            
+        </div>
+        <div>
+               
+                <p><i class="fa-solid fa-plane-departure"></i></p>
+                <p>Pick-Up Location</p>
+               <h4>Meet & Greet</h4>
+                
+               <p><i class="fa-solid fa-gas-pump"></i></p>
+            <p>Fuel Policy:</p>
+            <h4>Full to Full</h4>
+            <p>Mileage:</p>
+            <h4>Unlimited</h4>
+            <img src="https://www.sstravels.com/img/sstravel-logo-01.png"/>
+        </div>
+        <div id="boxes">
+            <h3>Included for Free</h3>
+            <p>Collision Damage Waiver</p>
+            <p>Theft Protection</p>
+            <p>Cancellation</p>
+            <p>Amendments</p>
+            <button>Important information</button>
+        </div>
+        <div id="boxes1">
+            <h1>RS</h1>
+            <h1>7,270.17</h1>
+            <button>Select</button>
+            <h3>EmailQuote</h3>
+        </div>
+       
+    </div>
+
+    <button id="confirm_car"  onclick="userdetails()">Conform Booking</button>
+</body>
+</html>
+
+<script>
+
+
+    function userdetails(){
+        window.location.href="userdetails.html"
+    }
+</script>

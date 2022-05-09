@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/car.css">
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+
+<body>
+    <div id="main_car_body_div">
+
+
+        <div id="categories">
+         <button> <h3>SEARCH RESULTS</h3></button>
+           <button> <h3>OPTION</h3></button>
+            <button><h3>DETAILS</h3></button>
+            <button><h3>CONFORMATION</h3></button>
+            
+          </div>
+         
+        <div id="navbar">
+            
+            <div id="main_part1">
+                
+              <div id="right_1">
+                <div>
+                    <h1>Search details</h1>
+                
+                </div>
+                <div >
+                    <p><i class="fa-solid fa-location-dot"></i>Pick-up</p>
+                   
+                </div>
+                <div id="a">
+                    <h3 >Mumbai - International Airport</h3>
+                </div>
+              </div>
+                    
+                
+                <div>
+                    <p><i class="fa-solid fa-location-dot"></i>Drop-off</p>
+                </div>
+                <div id="right_2">
+                    
+                    
+                    <p>Currency: INR</p>
+                    
+                    <div >
+                        <h3>Mumbai - International Airport</h3>
+                    </div>
+                </div>
+                <button id="btn">Edit</button>
+    
+                <div id="lower">
+                    <h2>Filter</h2>
+                    <diV style="margin-top: 25px; background-color: rgb(1, 1, 33);color: white; border-radius: 5px;height: 20px ;width: 40px;">Clear</diV>
+                    
+                </div>
+                <h1>Transmission</h1>
+                <div id="final">
+                    
+                    <input style="height:25px;width: 25px;" type="checkbox" type="checkbox"/>
+                    <h5 style="margin-top: 10px;">Automatic</h5>
+                </div>
+                <div id="final_1">
+                    
+                    <input style="height:25px;width: 25px;" type="checkbox" type="checkbox"/>
+                    <h5 style="margin-top: 10px;">Manual</h5>
+                </div>
+                <div id="final_2">
+                    
+                    <h2>Car Specifications</h2>
+                </div>
+                <div id="final">
+                    
+                    <input style="height:25px;width: 25px;" type="checkbox" type="checkbox"/>
+                    <h5 style="margin-top: 10px;">Air Conditioning</h5>
+                </div>
+                <div id="final_1">
+                    
+                    <input style="height:25px;width: 25px;" type="checkbox" type="checkbox"/>
+                    <h5 style="margin-top: 10px;">Petrol
+                    </h5>
+                </div>
+    
+                
+            </div>
+            <div id="main_part2">
+                <div id="middle">
+                    <img src="https://i.pinimg.com/originals/7b/dd/1b/7bdd1bc7db7fd48025d4e39a0e2f0fd8.jpg"/>
+                    <p>Book today and be confident with our flexible cancellation policy.</p>
+              </div>
+                <div class="card_flex">
+                    <div id="carCard" onclick="appendData()">
+                      <div >
+                          <p id="name" value="Economy">Economy</p>
+                       </div>
+                       <div  id="carCardFontLogo">
+                           <p><i class="fa-solid fa-user"></i> 2 &nbsp;</p><br>
+                           <p><i class="fa-solid fa-bag-shopping"></i>  3</p>
+                       </div>
+                       <div>
+                           <img id="smallCarImage" src="https://ctimg-fleet.cartrawler.com/generic/economy/primary.png?w=151.875&auto=compress" alt="" value="https://ctimg-fleet.cartrawler.com/generic/economy/primary.png?w=151.875&auto=compress">
+                       </div>
+                       <div>
+                           <p id="price" value="From  ₨ 5242.59">From  ₨ 5242.59</p>
+                       </div>
+                    </div>
+                    <div id="carCard"  onclick="appendData()">
+                      <div >
+                          <p id="name" value="Compact">Compact</p>
+                       </div>
+                       <div  id="carCardFontLogo">
+                           <p><i class="fa-solid fa-user"></i> 5 &nbsp;</p><br>
+                           <p><i class="fa-solid fa-bag-shopping"></i>  3</p>
+                       </div>
+                       <div>
+                           <img id="smallCarImage" src="https://ctimg-fleet.cartrawler.com/generic/economy/primary.png?w=151.875&auto=compress" alt="" value="https://ctimg-fleet.cartrawler.com/generic/economy/primary.png?w=151.875&auto=compress">
+                       </div>
+                       <div>
+                           <p id="price" value="From  ₨ 6800.24">From  ₨ 6800.24</p>
+                       </div>
+                    </div>
+                    <div id="carCard" onclick="appendData()">
+                      <div >
+                          <p>SUV</p>
+                       </div>
+                       <div  id="carCardFontLogo">
+                           <p><i class="fa-solid fa-user"></i> 5 &nbsp;</p><br>
+                           <p><i class="fa-solid fa-bag-shopping"></i>  5</p>
+                       </div>
+                       <div>
+                           <img id="smallCarImage" src="https://ctimg-fleet.cartrawler.com/generic/economy/primary.png?w=151.875&auto=compress" alt="">
+                       </div>
+                       <div>
+                           <p>From  ₨ 7,232.92</p>
+                       </div>
+                    </div>
+                    <div id="carCard" onclick="appendData()">
+                      <div >
+                          <p>Standard</p>
+                       </div>
+                       <div  id="carCardFontLogo">
+                           <p><i class="fa-solid fa-user"></i> 5 &nbsp;</p><br>
+                           <p><i class="fa-solid fa-bag-shopping"></i>  5</p>
+                       </div>
+                       <div>
+                           <img id="smallCarImage" src="https://ctimg-fleet.cartrawler.com/generic/economy/primary.png?w=151.875&auto=compress" alt="">
+                       </div>
+                       <div>
+                           <p>From ₨ 27,136.20</p>
+                       </div>
+                    </div>
+                    <div id="carCard" onclick="appendData()">
+                      <div >
+                          <p>Intermediate</p>
+                       </div>
+                       <div  id="carCardFontLogo">
+                           <p><i class="fa-solid fa-user"></i> 5 &nbsp;</p><br>
+                           <p><i class="fa-solid fa-bag-shopping"></i>  4</p>
+                       </div>
+                       <div>
+                           <img id="smallCarImage" src="https://ctimg-fleet.cartrawler.com/generic/economy/primary.png?w=151.875&auto=compress" alt="">
+                       </div>
+                       <div>
+                           <p>From  ₨ 18,482.60</p>
+                       </div>
+                    </div>
+                    <div id="carCard" onclick="appendData()">
+                      <div >
+                          <p>7-Seat Minivan</p>
+                       </div>
+                       <div  id="carCardFontLogo">
+                           <p><i class="fa-solid fa-user"></i> 7 &nbsp;</p><br>
+                           <p><i class="fa-solid fa-bag-shopping"></i>  4</p>
+                       </div>
+                       <div>
+                           <img id="smallCarImage" src="https://ctimg-fleet.cartrawler.com/generic/economy/primary.png?w=151.875&auto=compress" alt="">
+                       </div>
+                       <div>
+                           <p>From  ₨ 8,530.96</p>
+                       </div>
+                    </div>
+                  
+                  
+                    
+                </div>
+                <div id="detail">
+                    <div id="part_1">
+                        <div><p>Showing 5 out of 7 cars available in</p><h3>Mumbai - International Airport</h3></div>
+                        
+                        <div> <p>Sort By:</p>
+                            <button style="   background-color: rgb(1, 1, 33);color: white;">Recommended</button>
+                            <button>Price(low to high)</button>
+                            <button>Rating</button></div>
+                        
+                        
+                    </div>
+                    <div id="part_2" onclick="car_details()">
+                        <div>
+                            <h1>Standard</h1>
+                            <p>Hyundai Sonataor similar</p>
+                         
+                                <img src="https://ctimg-fleet.cartrawler.com/hyundai/sonata/primary.png?w=281.25&auto=compress" >
+                                <div  id="carCardFontLogo">
+                                    <p><i class="fa-solid fa-user"></i> 5 &nbsp;</p><br>
+                                    <p><i class="fa-solid fa-bag-shopping"></i>  5</p>
+                                </div>
+                                <p>Automatic Transmission</p>
+                                <p>Air Conditioning</p>
+
+                                
+                            
+                        </div>
+                        <div>
+                               
+                                <p><i class="fa-solid fa-plane-departure"></i></p>
+                                <p>Pick-Up Location</p>
+                               <h4>Meet & Greet</h4>
+                                
+                               <p><i class="fa-solid fa-gas-pump"></i></p>
+                            <p>Fuel Policy:</p>
+                            <h4>Full to Full</h4>
+                            <p>Mileage:</p>
+                            <h4>Unlimited</h4>
+                            <img src="https://www.sstravels.com/img/sstravel-logo-01.png"/>
+                        </div>
+                        <div id="boxes">
+                            <h3>Included for Free</h3>
+                            <p>Collision Damage Waiver</p>
+                            <p>Theft Protection</p>
+                            <p>Cancellation</p>
+                            <p>Amendments</p>
+                            <button>Important information</button>
+                        </div>
+                        <div id="boxes1">
+                            <h1>RS</h1>
+                            <h1>27,258.21</h1>
+                            <button>Select</button>
+                            <h3>EmailQuote</h3>
+                        </div>
+                       
+                    </div>
+                    
+                </div>
+                <div id="part_2" onclick="car_details()">
+                    <div>
+                        <h1>Intermediate</h1>
+                        <p>Skoda Octaviaor similar</p>
+                     
+                            <img src="https://ctimg-fleet.cartrawler.com/hyundai/sonata/primary.png?w=281.25&auto=compress" >
+                            <div  id="carCardFontLogo">
+                                <p><i class="fa-solid fa-user"></i> 5 &nbsp;</p><br>
+                                <p><i class="fa-solid fa-bag-shopping"></i>  4</p>
+                            </div>
+                            <p>Automatic Transmission</p>
+                            <p>Air Conditioning</p>
+
+                            
+                        
+                    </div>
+                    <div>
+                           
+                            <p><i class="fa-solid fa-plane-departure"></i></p>
+                            <p>Pick-Up Location</p>
+                           <h4>Meet & Greet</h4>
+                            
+                           <p><i class="fa-solid fa-gas-pump"></i></p>
+                        <p>Fuel Policy:</p>
+                        <h4>Full to Full</h4>
+                        <p>Mileage:</p>
+                        <h4>Unlimited</h4>
+                        <img src="https://www.sstravels.com/img/sstravel-logo-01.png"/>
+                    </div>
+                    <div id="boxes">
+                        <h3>Included for Free</h3>
+                        <p>Collision Damage Waiver</p>
+                        <p>Theft Protection</p>
+                        <p>Cancellation</p>
+                        <p>Amendments</p>
+                        <button>Important information</button>
+                    </div>
+                    <div id="boxes1">
+                        <h1>RS</h1>
+                        <h1>18,567.76</h1>
+                        <button>Select</button>
+                        <h3>EmailQuote</h3>
+                    </div>
+                   
+                </div>
+                <div id="part_2" onclick="car_details()">
+                    <div>
+                        <h1>Compact</h1>
+                        <p>Hyundai Accentor similar</p>
+                     
+                            <img src="https://ctimg-fleet.cartrawler.com/hyundai/sonata/primary.png?w=281.25&auto=compress" >
+                            <div  id="carCardFontLogo">
+                                <p><i class="fa-solid fa-user"></i> 5 &nbsp;</p><br>
+                                <p><i class="fa-solid fa-bag-shopping"></i>  3</p>
+                            </div>
+                            <p>Automatic Transmission</p>
+                            <p>Air Conditioning</p>
+
+                            
+                        
+                    </div>
+                    <div>
+                           
+                            <p><i class="fa-solid fa-plane-departure"></i></p>
+                            <p>Pick-Up Location</p>
+                           <h4>Meet & Greet</h4>
+                            
+                           <p><i class="fa-solid fa-gas-pump"></i></p>
+                        <p>Fuel Policy:</p>
+                        <h4>Full to Full</h4>
+                        <p>Mileage:</p>
+                        <h4>Unlimited</h4>
+                        <img src="https://www.sstravels.com/img/sstravel-logo-01.png"/>
+                    </div>
+                    <div id="boxes">
+                        <h3>Included for Free</h3>
+                        <p>Collision Damage Waiver</p>
+                        <p>Theft Protection</p>
+                        <p>Cancellation</p>
+                        <p>Amendments</p>
+                        <button>Important information</button>
+                    </div>
+                    <div id="boxes1">
+                        <h1>RS</h1>
+                        <h1>7,270.17</h1>
+                        <button>Select</button>
+                        <h3>EmailQuote</h3>
+                    </div>
+                   
+                </div>
+                <div id="part_2" onclick="car_details()">
+                    <div>
+                        <h1>7-seat minivan</h1>
+                        <p>Toyota Innovaor similar</p>
+                     
+                            <img src="https://ctimg-fleet.cartrawler.com/hyundai/sonata/primary.png?w=281.25&auto=compress" >
+                            <div  id="carCardFontLogo">
+                                <p><i class="fa-solid fa-user"></i> 5 &nbsp;</p><br>
+                                <p><i class="fa-solid fa-bag-shopping"></i>  3</p>
+                            </div>
+                            <p>Automatic Transmission</p>
+                            <p>Air Conditioning</p>
+
+                            
+                        
+                    </div>
+                    <div>
+                           
+                            <p><i class="fa-solid fa-plane-departure"></i></p>
+                            <p>Pick-Up Location</p>
+                           <h4>Meet & Greet</h4>
+                            
+                           <p><i class="fa-solid fa-gas-pump"></i></p>
+                        <p>Fuel Policy:</p>
+                        <h4>Full to Full</h4>
+                        <p>Mileage:</p>
+                        <h4>Unlimited</h4>
+                        <img src="https://www.sstravels.com/img/sstravel-logo-01.png"/>
+                    </div>
+                    <div id="boxes">
+                        <h3>Included for Free</h3>
+                        <p>Collision Damage Waiver</p>
+                        <p>Theft Protection</p>
+                        <p>Cancellation</p>
+                        <p>Amendments</p>
+                        <button>Important information</button>
+                    </div>
+                    <div id="boxes1">
+                        <h1>RS</h1>
+                        <h1>8,293.06</h1>
+                        <button>Select</button>
+                        <h3>EmailQuote</h3>
+                    </div>
+                   
+                </div>
+                <div id="part_2" onclick="car_details()">
+                    <div>
+                        <h1>SUV</h1>
+                        <p>Chevrolet Trailblazeror similar</p>
+                     
+                            <img src="https://ctimg-fleet.cartrawler.com/hyundai/sonata/primary.png?w=281.25&auto=compress" >
+                            <div  id="carCardFontLogo">
+                                <p><i class="fa-solid fa-user"></i> 7 &nbsp;</p><br>
+                                <p><i class="fa-solid fa-bag-shopping"></i>  4</p>
+                            </div>
+                            <p>Automatic Transmission</p>
+                            <p>Air Conditioning</p>
+
+                            
+                        
+                    </div>
+                    <div>
+                           
+                            <p><i class="fa-solid fa-plane-departure"></i></p>
+                            <p>Pick-Up Location</p>
+                           <h4>Meet & Greet</h4>
+                            
+                           <p><i class="fa-solid fa-gas-pump"></i></p>
+                        <p>Fuel Policy:</p>
+                        <h4>Full to Full</h4>
+                        <p>Mileage:</p>
+                        <h4>Unlimited</h4>
+                        <img src="https://www.sstravels.com/img/sstravel-logo-01.png"/>
+                    </div>
+                    <div id="boxes">
+                        <h3>Included for Free</h3>
+                        <p>Collision Damage Waiver</p>
+                        <p>Theft Protection</p>
+                        <p>Cancellation</p>
+                        <p>Amendments</p>
+                        <button>Important information</button>
+                    </div>
+                    <div id="boxes1">
+                        <h1>RS</h1>
+                        <h1>7,270.17</h1>
+                        <button>Select</button>
+                        <h3>EmailQuote</h3>
+                    </div>
+                   
+                </div>
+                
+          
+          
+        
+              <div id="detail_2">
+                
+              </div>
+            </div>
+           
+        
+            
+        </div>
+
+
+    </div>
+   
+</body>
+</html>
+<script src="./scripts/car.js">
+
+</script>
